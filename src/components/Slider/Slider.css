@@ -1,0 +1,70 @@
+.s-container {
+  position: relative;
+}
+
+.s-container .swiper {
+  width: 70%;
+  height: 12rem;
+  position: unset;
+  border-radius: 15px;
+}
+
+.s-container .swiper-slide {
+  background: #fff;
+  display: flex;
+  border-radius: 10px;
+  padding: 1rem;
+  box-sizing: border-box;
+  overflow: hidden;
+  position: relative;
+}
+
+.s-container .swiper-button-prev {
+  left: 6rem;
+  color: #000;
+}
+.s-container .swiper-button-next {
+  color: #000;
+  right: 6rem;
+}
+
+.left-s {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.name {
+  display: flex;
+  flex-direction: column;
+}
+
+.name > :first-child {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+.name > :last-child {
+  font-size: 0.6rem;
+}
+
+.left-s> :nth-child(2) {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.left-s> :nth-child(3) {
+  font-size: 0.6rem;
+  border: 1px solid var(--black);
+  padding: 5px 10px;
+  width: max-content;
+  border-radius: 15px;
+}
+
+.img-p {
+  transform: rotate(-20deg);
+  position: absolute;
+  right: 0;
+  width: 40%;
+  height: 100%;
+  bottom: -20%;
+}
