@@ -30,7 +30,28 @@ export const SliderProducts = [{
     detail: 'Super Skin Care',
     price: '25',
     img: img3
-}
+},
+{
+    name: "CONDITIONER",
+    details: 'Best Conditioner',
+    price: '30',
+    img: img9,
+    type: 'conditioner'
+},
+{
+    name: "CONDITIONER",
+    details: 'Best Conditioner',
+    price: '30',
+    img: img10,
+    type: 'conditioner'
+},
+{
+    name: "FOUNDATION",
+    details: 'Nourish your skin',
+    price: '12',
+    img: img11,
+    type: 'foundation'
+},
 ]
 export const ProductsData = [{
     name: 'SKIN',

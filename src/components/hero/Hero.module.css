@@ -30,7 +30,7 @@
 .cart2 {
   position: absolute;
   bottom: 25%;
-  right: -5% ;
+  right: 5% ;
   display: flex;
   gap: 1rem;
   align-items: center;

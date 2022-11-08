@@ -7,4 +7,8 @@ body {
   transition: all 3ms ease;
   color: var(--black);
   scroll-behavior: smooth;
+  user-select: none;
 }
+
+
+
