@@ -39,7 +39,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   height: 25rem;
-  overflow: scroll;
+  overflow-y: scroll;
   gap: 2rem;
   justify-content: space-between;
 }

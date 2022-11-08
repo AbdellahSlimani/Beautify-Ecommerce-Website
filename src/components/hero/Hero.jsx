@@ -14,8 +14,7 @@ function Hero() {
           <span>Trendy Collection</span>
           <span>
             {" "}
-            Seedily say has suitable disposal and boy. Exercise joy man children
-            rejoiced
+            Seedily say has suitable disposal and boy. Exercise joy man children rejoiced
           </span>
         </div>
       </div>
