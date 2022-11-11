@@ -8,7 +8,7 @@ function Header() {
     <div className={css.container}>
         <div className={css.logo}>
           <img src={Logo} alt="company logo"/>
-          <span>amazon</span>
+          <span>Beautify</span>
         </div>
         <div className={css.right}>
           <div className={css.menu}>
