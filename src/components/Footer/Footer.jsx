@@ -6,11 +6,14 @@ import {
   PhoneIcon,
   LocationMarkerIcon,
   LoginIcon,
-  userIcon,
   LinkIcon,
+  UserIcon,
 } from "@heroicons/react/outline"
 
 function Footer() {
+
+  const crYear = new Date().getFullYear()
+
   return (
     <div className={css.cFooterWrapper}>
       <hr />
@@ -52,7 +55,7 @@ function Footer() {
           <div className={css.detail}>
             <span>Company</span>
             <span className={css.pngLine}>
-              <userIcon className={css.icon} />
+              <UserIcon className={css.icon} />
               <a href="/about">
                 <p>About us</p>
               </a>
@@ -69,6 +72,10 @@ function Footer() {
           </div>
         </div>
 
+      </div>
+      <div className={css.copyRight}>
+        <span>Copyright ©{crYear} by Beautify, Inc.</span>
+        <span>All right reserved</span>
       </div>
     </div>
   )
