@@ -3,6 +3,7 @@ import css from "./Hero.module.css";
 import HeroImg from "../../assets/hero.png";
 import { RiShoppingBagFill } from "react-icons/ri";
 import { BsArrowRight } from "react-icons/bs";
+import { motion } from "framer-motion";
 
 function Hero() {
   return (
@@ -14,16 +15,47 @@ function Hero() {
           <span>Trendy Collection</span>
           <span>
             {" "}
-            Seedily say has suitable disposal and boy. Exercise joy man children rejoiced
+            Seedily say has suitable disposal and boy. Exercise joy man children
+            rejoiced
           </span>
         </div>
       </div>
 
       {/* middle side hero image */}
       <div className={css.wrapper}>
-        <div className={css.blueCircle}></div>
-        <img src={HeroImg} alt="a woman" width={600} />
-        <div className={css.cart2}>
+        {/* hero blue circle */}
+        <motion.div
+          initial={{ bottom: "2rem" }}
+          whileInView={{ bottom: "0rem" }}
+          transition={{
+            type: "spring",
+            duration: 3,
+          }}
+          className={css.blueCircle}
+        ></motion.div>
+        {/* Hero img */}
+        <motion.img
+          initial={{ bottom: "-2rem" }}
+          whileInView={{ bottom: "0rem" }}
+          transition={{
+            type: "spring",
+            duration: 3,
+          }}
+          src={HeroImg}
+          alt="a woman"
+          width={600}
+        />
+
+        {/* cart div animation */}
+        <motion.div
+          initial={{ right: "4%" }}
+          whileInView={{ right: "2%" }}
+          transition={{
+            type: "spring",
+            duration: 3,
+          }}
+          className={css.cart2}
+        >
           <RiShoppingBagFill />
           <div className={css.signup}>
             <span>Best Signup Offers</span>
@@ -31,7 +63,7 @@ function Hero() {
               <BsArrowRight />
             </div>
           </div>
-        </div>
+        </motion.div>
       </div>
       {/* right side */}
       <div className={css.h_sides}>
