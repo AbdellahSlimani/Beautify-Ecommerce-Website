@@ -15,8 +15,8 @@ function Hero() {
           <span>Trendy Collection</span>
           <span>
             {" "}
-            Seedily say has suitable disposal and boy. Exercise joy man children
-            rejoiced
+            Beautify believes in championing all beauty, living with courage,
+            and standing fearlessly together to celebrate our differences
           </span>
         </div>
       </div>
@@ -48,8 +48,8 @@ function Hero() {
 
         {/* cart div animation */}
         <motion.div
-          initial={{ right: "4%" }}
-          whileInView={{ right: "2%" }}
+          initial={{ right: "2rem" }}
+          whileInView={{ right: "-3rem" }}
           transition={{
             type: "spring",
             duration: 3,

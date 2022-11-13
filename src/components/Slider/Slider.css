@@ -6,7 +6,6 @@
   width: 70%;
   height: 12rem;
   position: unset;
-  border-radius: 15px;
 }
 
 .s-container .swiper-slide {
@@ -67,4 +66,29 @@
   width: 40%;
   height: 100%;
   bottom: -20%;
+}
+
+@media screen and (max-width: 856px) {
+  .s-container .swiper {
+    width: 90%;
+    height: 10rem;
+  }
+
+  .s-container .swiper-button-prev,
+  .s-container .swiper-button-next {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .s-container {
+    width: 100%;
+    border-radius: 15px;
+  }
+
+  .s-container .swiper {
+    width: 80%;
+    height: 10rem;
+    padding: 0 2rem;
+  }
 }

@@ -13,6 +13,17 @@ function Slider() {
   return (
     <div className="s-container">
       <Swiper
+        breakpoints={{
+          640: {
+            slidesPerView:3,
+            spaceBetween:20
+          },
+          0: {
+            slidesPerView:1,
+            spaceBetween:20
+          }
+
+        }}
         modules={[Pagination, Navigation]}
         className="mySwiper"
         navigation={true}

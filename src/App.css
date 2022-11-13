@@ -8,6 +8,7 @@
 .App{
   display: flex;
   flex-direction: column;
+  overflow-x: hidden;
 }
 ::-webkit-scrollbar{
   height: 12px;

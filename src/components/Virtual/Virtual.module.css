@@ -1,6 +1,5 @@
 .Virtual {
-  margin-top: 6rem;
-  margin-bottom: 6rem;
+  margin: 6rem 0;
   padding: 2rem;
   display: flex;
   justify-content: space-around;
@@ -33,12 +32,32 @@
   font-weight: bold;
 }
 
-.left> img {
+.left>img {
   position: absolute;
   width: 10rem;
   bottom: 3rem;
 }
 
 .compareImgWrapper {
-  width:30rem ;
+  width: 90vw;
+  max-width: 30rem ;
+}
+
+@media screen and (max-width: 856px) {
+  .Virtual {
+    gap: 1rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem 0;
+    padding: 1rem;
+    text-align: center;
+  }
+
+  .left>img {
+    position: absolute;
+    width: 10rem;
+    bottom: -1.5rem;
+    left: 6rem;
+  }
 }

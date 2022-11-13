@@ -53,3 +53,33 @@
   height: 1.5rem;
   cursor: pointer;
 }
+
+.bars {
+  display: none;
+}
+
+@media screen and (max-width : 640px) {
+  .right {
+    position: absolute;
+    right: 2rem;
+    z-index: 9999;
+    background: #fff;
+    color: var(--black);
+    border-radius: 5px;
+    flex-direction: column;
+    padding: 1rem;
+  }
+  .menu {
+    flex-direction: column;
+    margin-left: -2rem;
+    display: none;
+    align-items: center;
+  }
+  .bars {
+    display: block;
+  }
+  .search {
+    display: none;
+  }
+
+}
