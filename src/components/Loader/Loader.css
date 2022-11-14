@@ -1,0 +1,55 @@
+
+
+.container {
+  display: flex;
+  height:100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  opacity: 1;
+  animation: fadeOut 1s 4s;
+}
+
+#bSquare {
+  width: 75px;
+  height: 75px;
+  background: #79bbff;
+  border-radius: 7px;
+  animation: animeSquare 0.5s infinite linear;
+  z-index: 100;
+}
+#bShadow {
+  width: 70px;
+  height: 8px;
+  background:rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  filter: blur(1px);
+  animation: animeShadow 0.25s infinite alternate ease-in-out;
+}
+
+@keyframes animeSquare {
+  0% {
+    transform: translateY(0px) rotate(0)
+  }
+  50% {
+    transform: translateY(30px) rotate(45deg);
+    border-bottom-right-radius: 100%;
+  }
+  100% {
+    transform: translateY(0px) rotate(90deg) ;
+  }
+}
+
+
+@keyframes animeShadow {
+  to {
+    width: 80px
+  }
+}
+
+@keyframes fadeOut {
+  to {
+    opacity: 0;
+  }
+}
