@@ -1,32 +1,31 @@
 {
   "files": {
     "main.css": "/Beautify-Ecommerce-Website/static/css/main.5b9f7bca.css",
-    "main.js": "/Beautify-Ecommerce-Website/static/js/main.5ec1bbeb.js",
-    "static/media/before.png": "/Beautify-Ecommerce-Website/static/media/before.e241963fac434e2c7e47.png",
-    "static/media/after.png": "/Beautify-Ecommerce-Website/static/media/after.8b42cb9d0a716a3e577f.png",
-    "static/media/testimonialHero.png": "/Beautify-Ecommerce-Website/static/media/testimonialHero.be51563da7af51b38130.png",
-    "static/media/img10.png": "/Beautify-Ecommerce-Website/static/media/img10.9dca869800ef4d7d7be2.png",
-    "static/media/hero.png": "/Beautify-Ecommerce-Website/static/media/hero.7e2be00982208588722d.png",
-    "static/media/img12.png": "/Beautify-Ecommerce-Website/static/media/img12.7696f2854ceabceb984c.png",
-    "static/media/img3.png": "/Beautify-Ecommerce-Website/static/media/img3.d225ac3ac1bcc97aca1b.png",
+    "main.js": "/Beautify-Ecommerce-Website/static/js/main.c0c2d039.js",
+    "static/media/img10.png": "/Beautify-Ecommerce-Website/static/media/img10.dc6aa5b159b702856a03.png",
+    "static/media/before.png": "/Beautify-Ecommerce-Website/static/media/before.e100fc4e1ab20888a097.png",
+    "static/media/after.png": "/Beautify-Ecommerce-Website/static/media/after.dcb576b29cca3b955510.png",
+    "static/media/testimonialHero.png": "/Beautify-Ecommerce-Website/static/media/testimonialHero.d7b627cd60a5b7074c63.png",
     "static/media/img14.png": "/Beautify-Ecommerce-Website/static/media/img14.2b55b655fba33b943c93.png",
-    "static/media/img13.png": "/Beautify-Ecommerce-Website/static/media/img13.e3b0835f60b5707adc11.png",
-    "static/media/img11.png": "/Beautify-Ecommerce-Website/static/media/img11.61cf95f44f96c3564496.png",
-    "static/media/img4.png": "/Beautify-Ecommerce-Website/static/media/img4.7b20223641d7d8966ccd.png",
-    "static/media/img5.png": "/Beautify-Ecommerce-Website/static/media/img5.a12239757c62254e7da3.png",
-    "static/media/img6.png": "/Beautify-Ecommerce-Website/static/media/img6.56e238b1c3c874d28abe.png",
-    "static/media/img7.png": "/Beautify-Ecommerce-Website/static/media/img7.316d5f4f0fdaa020ad04.png",
-    "static/media/img1.png": "/Beautify-Ecommerce-Website/static/media/img1.43539ffb398f19f18433.png",
-    "static/media/img9.png": "/Beautify-Ecommerce-Website/static/media/img9.e6a5aa1e402b61a22d3d.png",
-    "static/media/img8.png": "/Beautify-Ecommerce-Website/static/media/img8.3057bb293334c0df814f.png",
-    "static/media/img2.png": "/Beautify-Ecommerce-Website/static/media/img2.16b9473ec159268c564d.png",
-    "static/media/shade.png": "/Beautify-Ecommerce-Website/static/media/shade.ce305661a97c2720c82b.png",
+    "static/media/img12.png": "/Beautify-Ecommerce-Website/static/media/img12.c62c16fa026dd50775ff.png",
+    "static/media/img13.png": "/Beautify-Ecommerce-Website/static/media/img13.e394dd96f08bb6539016.png",
+    "static/media/hero.png": "/Beautify-Ecommerce-Website/static/media/hero.b989966b2061529eea40.png",
+    "static/media/img11.png": "/Beautify-Ecommerce-Website/static/media/img11.15c9b6db41b7e24df4d8.png",
+    "static/media/img5.png": "/Beautify-Ecommerce-Website/static/media/img5.595157aff2e554164175.png",
+    "static/media/img3.png": "/Beautify-Ecommerce-Website/static/media/img3.323f8560c2da12669dcb.png",
+    "static/media/img6.png": "/Beautify-Ecommerce-Website/static/media/img6.c3bcfb650020335c44a7.png",
+    "static/media/img7.png": "/Beautify-Ecommerce-Website/static/media/img7.40c8ddf28bf31f70c14b.png",
+    "static/media/img4.png": "/Beautify-Ecommerce-Website/static/media/img4.1a16729b6223da6524f0.png",
+    "static/media/img9.png": "/Beautify-Ecommerce-Website/static/media/img9.149a1ce6b8d43df5c644.png",
+    "static/media/img1.png": "/Beautify-Ecommerce-Website/static/media/img1.b8f47d345bdd40224f6c.png",
+    "static/media/img8.png": "/Beautify-Ecommerce-Website/static/media/img8.8b49150aa866acdff968.png",
+    "static/media/img2.png": "/Beautify-Ecommerce-Website/static/media/img2.4fb2531a7afb8dc95ec7.png",
     "index.html": "/Beautify-Ecommerce-Website/index.html",
     "main.5b9f7bca.css.map": "/Beautify-Ecommerce-Website/static/css/main.5b9f7bca.css.map",
-    "main.5ec1bbeb.js.map": "/Beautify-Ecommerce-Website/static/js/main.5ec1bbeb.js.map"
+    "main.c0c2d039.js.map": "/Beautify-Ecommerce-Website/static/js/main.c0c2d039.js.map"
   },
   "entrypoints": [
     "static/css/main.5b9f7bca.css",
-    "static/js/main.5ec1bbeb.js"
+    "static/js/main.c0c2d039.js"
   ]
 }
