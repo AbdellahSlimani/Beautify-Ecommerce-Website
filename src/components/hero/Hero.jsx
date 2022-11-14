@@ -35,8 +35,8 @@ function Hero() {
         ></motion.div>
         {/* Hero img */}
         <motion.img
-          initial={{ bottom: "-2rem" }}
-          whileInView={{ bottom: "0rem" }}
+          /* initial={{ bottom: "2rem" }}
+          whileInView={{ bottom: "0rem" }} */
           transition={{
             type: "spring",
             duration: 3,
