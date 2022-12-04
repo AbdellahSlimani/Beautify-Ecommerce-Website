@@ -34,9 +34,7 @@ function Hero() {
           className={css.blueCircle}
         ></motion.div>
         {/* Hero img */}
-        <motion.img
-          /* initial={{ bottom: "2rem" }}
-          whileInView={{ bottom: "0rem" }} */
+        {/* <motion.img
           transition={{
             type: "spring",
             duration: 3,
@@ -44,7 +42,7 @@ function Hero() {
           src={HeroImg}
           alt="a woman"
           width={600}
-        />
+        /> */}
 
         {/* cart div animation */}
         <motion.div

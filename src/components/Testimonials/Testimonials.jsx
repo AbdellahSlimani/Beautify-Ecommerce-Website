@@ -15,7 +15,7 @@ function Testimonials() {
             and standing fearlessly together to celebrate our differences
           </span>
         </div>
-        <img src={TestimonialsHeroImg} alt="testimonial" />
+        {/* <img src={TestimonialsHeroImg} alt="testimonial" /> */}
         <div className={css.container}>
           <span>100K</span>
           <span>Happy customers</span>
